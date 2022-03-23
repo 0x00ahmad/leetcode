@@ -1,0 +1,12 @@
+__pycache__
+**.out
+generate_solution_dir.py
+# for ignoring rust output files
+debug/
+target/
+Cargo.lock
+**/*.rs.bk
+*.pdb
+
+medium
+hard
