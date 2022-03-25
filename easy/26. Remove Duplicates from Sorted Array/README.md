@@ -50,6 +50,14 @@ It does not matter what you leave beyond the returned k (hence they are undersco
 
 ## Solution
 
+The approach here is to instead of pushing every single element ahead by one, we iterate over the duplicates until we find the next greater number, at which point we can just swap that number to the required index.
+
+We do this with a 2-pointer approach to solve this, where the first pointer is going to iterate over the whole list skipping ahead finding the 'new' element and the second pointer is going to be used for the changing index.
+
 ### Time Complexity
 
+O(n)
+
 ### Space Complexity
+
+O(1)
